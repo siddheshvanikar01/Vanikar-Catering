@@ -1,0 +1,127 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff5e1;
+    text-align: center;
+}
+
+/* Header Section */
+header {
+    background-color: #ffcc66;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo img {
+    max-width: 120px; /* Smaller logo */
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #333;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    background: url('images/overall-bg.JPG') no-repeat center center/cover;
+    color: #333;
+}
+
+.hero-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    max-width: 1000px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+}
+
+.hero-image img {
+    width: 100%;
+    max-width: 500px;
+    height: 280px; /* Rectangular food image */
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.hero-text {
+    max-width: 500px;
+}
+
+/* Menu Section */
+#menu {
+    padding: 40px 20px;
+    background-color: #fff;
+}
+
+.menu-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.menu-category {
+    background: #ffebcc;
+    padding: 15px;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+}
+
+.menu-category img {
+    width: 100%;
+    max-height: 150px; /* Smaller menu images */
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.menu-category ul {
+    list-style: none;
+    padding: 0;
+    font-size: 16px;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #ffcc66;
+    padding: 30px;
+}
+
+#contact a {
+    color: #333;
+    font-weight: bold;
+    text-decoration: none;
+}
